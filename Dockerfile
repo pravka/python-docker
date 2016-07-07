@@ -1,8 +1,8 @@
 FROM gliderlabs/alpine:latest
 
 RUN apk add --update \
-    python \
-    python-dev \
+    python3 \
+    python3-dev \
     py-pip \
     build-base \
     bash \
